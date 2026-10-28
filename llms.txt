@@ -6,13 +6,13 @@
 
 ## ページ
 
-- [トップ（サービスの説明・見本・お試しの申し込み）](https://endeavor0007-design.github.io/manga-kobo/): できること・流れ・見本・料金の予定・よくある質問
-- [AIで小説・文章を漫画化する方法](https://endeavor0007-design.github.io/manga-kobo/ai-de-mangaka.html): 3つの方法（自分で作る・AIの漫画作成ツール・AI作画の漫画化サービス）の比べ方、自分で作る手順、ネームの指示文の例、人物をそろえるコツ
-- [小説を漫画にする方法と費用の目安](https://endeavor0007-design.github.io/manga-kobo/komikaraizu-houhou.html): 自分で描く・漫画家に依頼する・AI作画の費用と時間の目安、原作の字数とページ数
-- [小説の漫画化・コミカライズを依頼したい方へ](https://endeavor0007-design.github.io/manga-kobo/komikaraizu-irai.html): 依頼先の選び方・費用・依頼の流れ・依頼文の例・チェックリスト
+- [トップ（サービスの説明・見本・お試しの申し込み）](https://cocreturn.com/manga-kobo/): できること・流れ・見本・料金の予定・よくある質問
+- [AIで小説・文章を漫画化する方法](https://cocreturn.com/manga-kobo/ai-de-mangaka.html): 3つの方法（自分で作る・AIの漫画作成ツール・AI作画の漫画化サービス）の比べ方、自分で作る手順、ネームの指示文の例、人物をそろえるコツ
+- [小説を漫画にする方法と費用の目安](https://cocreturn.com/manga-kobo/komikaraizu-houhou.html): 自分で描く・漫画家に依頼する・AI作画の費用と時間の目安、原作の字数とページ数
+- [小説の漫画化・コミカライズを依頼したい方へ](https://cocreturn.com/manga-kobo/komikaraizu-irai.html): 依頼先の選び方・費用・依頼の流れ・依頼文の例・チェックリスト
 
 ## 連絡
 
 - メール: endeavor0007@gmail.com
 - X: https://x.com/mangakobo_ai
-- 運営: 共創還元（COCRETURN） https://endeavor0007-design.github.io/
+- 運営: 共創還元（COCRETURN） https://cocreturn.com/
