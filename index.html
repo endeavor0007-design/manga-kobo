@@ -232,7 +232,7 @@ footer a{color:var(--sub)}
 <section id="about"><div class="w">
   <h2>運営について</h2>
   <p>まんが化工房は個人運営です。運営者自身がWeb小説をAIと共作していて、自分の作品を漫画にする仕組み（ネーム・作画・縦書きの写植）を作りました。それを他の書き手の方にも使っていただくために始めました。上の見本1は、その自作の小説を漫画にしたものです。</p>
-  <p class="small">お問い合わせ：<a href="mailto:info@cocreturn.com">info@cocreturn.com</a>（2営業日以内にお返事します）</p>
+  <p class="small">お問い合わせ：<a class="js-ask" href="mailto:info@cocreturn.com">info@cocreturn.com</a>（2営業日以内にお返事します）</p>
 </div></section>
 
 <section id="apply" class="final tone"><div class="w">
@@ -245,7 +245,7 @@ footer a{color:var(--sub)}
 
 <footer><div class="w">
   <p><a href="komikaraizu-irai.html">小説の漫画化・コミカライズを依頼したい方へ</a>｜<a href="komikaraizu-houhou.html">小説を漫画にする方法と費用の目安</a>｜<a href="ai-de-mangaka.html">AIで小説・文章を漫画化する方法</a></p>
-  <p>まんが化工房（漫画化工房・個人運営）｜お問い合わせ：<a href="mailto:info@cocreturn.com">info@cocreturn.com</a>｜<a href="privacy.html">プライバシーポリシー</a></p>
+  <p>まんが化工房（漫画化工房・個人運営）｜お問い合わせ：<a class="js-ask" href="mailto:info@cocreturn.com">info@cocreturn.com</a>｜<a href="privacy.html">プライバシーポリシー</a></p>
   <p>© まんが化工房</p>
 </div></footer>
 
@@ -256,9 +256,14 @@ if (document.querySelector(".js-works figure")) document.querySelector(".js-work
 var SIGNUP_URL = "";
 var FORM_HREF = SIGNUP_URL ? SIGNUP_URL + (SIGNUP_URL.indexOf("?") < 0 ? "?" : "&") + "usp=pp_url" : "";
 // フォームが無い間は、件名と本文のひな形入りのメールを開く
-var MAIL = "mailto:info@cocreturn.com?subject=" + encodeURIComponent("まんが化工房 お試しの申し込み") +
+// 経路の印：?src=（英数字・-・_ の30字まで）を件名の末尾に付け、どこから来た申し込みか分かるようにする（無い・不正な値のときは付けない）
+var SRC = (function () { var m = location.search.match(/[?&]src=([A-Za-z0-9_-]{1,30})(?:&|$)/); return m ? m[1] : ""; })();
+var TAG = SRC ? "［" + SRC + "］" : "";
+var MAIL = "mailto:info@cocreturn.com?subject=" + encodeURIComponent("まんが化工房 お試しの申し込み" + TAG) +
   "&body=" + encodeURIComponent("・ペンネーム：\n・作品の題名と、掲載している場所（URLがあれば）：\n・作品の長さ（全何話・合計何字くらい）：\n・漫画にしたい場面（冒頭／特定の話など）と使い道（宣伝・試し読みなど）：\n\n※原稿や設定は、こちらから送り方をご案内した後にお送りください。");
 document.querySelectorAll(".js-mail").forEach(function (a) { a.href = MAIL; });
+// 問い合わせのリンクにも同じ印を付ける
+document.querySelectorAll(".js-ask").forEach(function (a) { a.href = "mailto:info@cocreturn.com?subject=" + encodeURIComponent("まんが化工房 お問い合わせ" + TAG); });
 document.querySelectorAll(".js-signup").forEach(function (a) {
   if (FORM_HREF) { a.href = FORM_HREF; a.target = "_blank"; a.rel = "noopener"; }
 });
