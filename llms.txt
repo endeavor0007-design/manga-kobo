@@ -10,6 +10,7 @@
 - [AIで小説・文章を漫画化する方法](https://cocreturn.com/manga-kobo/ai-de-mangaka.html): 3つの方法（自分で作る・AIの漫画作成ツール・AI作画の漫画化サービス）の比べ方、自分で作る手順、ネームの指示文の例、人物をそろえるコツ
 - [小説を漫画にする方法と費用の目安](https://cocreturn.com/manga-kobo/komikaraizu-houhou.html): 自分で描く・漫画家に依頼する・AI作画の費用と時間の目安、原作の字数とページ数
 - [小説の漫画化・コミカライズを依頼したい方へ](https://cocreturn.com/manga-kobo/komikaraizu-irai.html): 依頼先の選び方・費用・依頼の流れ・依頼文の例・チェックリスト
+- [小説の漫画化を頼むときの料金と選び方](https://cocreturn.com/manga-kobo/ryokin.html): 頼み先3種（個人の漫画家・イラストレーター、漫画の制作会社、AI作画の漫画化サービス）の料金の目安、料金が変わる所、ページ数から総額を見積もる方法、頼む前に確かめること
 
 ## 連絡
 

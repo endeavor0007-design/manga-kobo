@@ -15,5 +15,6 @@ https://cocreturn.com/manga-kobo/
 - [AIで小説・文章を漫画化する方法](https://cocreturn.com/manga-kobo/ai-de-mangaka.html)
 - [小説を漫画にする方法と費用の目安](https://cocreturn.com/manga-kobo/komikaraizu-houhou.html)
 - [小説の漫画化・コミカライズを依頼したい方へ](https://cocreturn.com/manga-kobo/komikaraizu-irai.html)
+- [小説の漫画化を頼むときの料金と選び方](https://cocreturn.com/manga-kobo/ryokin.html)
 
 このリポジトリは説明ページ（GitHub Pages）の中身です。お問い合わせ：info@cocreturn.com ／ X：[@mangakobo_ai](https://x.com/mangakobo_ai)
