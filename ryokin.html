@@ -43,7 +43,17 @@ pre{background:#fff;border:1.5px solid #d6d3c9;padding:12px;white-space:pre-wrap
 .answer{background:#fff;border:2.5px solid var(--ink);border-left:8px solid var(--accent);padding:16px 20px;margin:20px 0}
 footer{padding:32px 0 40px;font-size:14px;color:var(--sub)}
 footer a{color:var(--sub)}
-@media (max-width:720px){h1{font-size:26px}h2{font-size:21px}}
+@media (max-width:720px){h1{font-size:26px}h2{font-size:21px}
+.tablewrap{overflow:visible}
+.tablewrap table{min-width:0}
+.tablewrap thead{display:none}
+.tablewrap table,.tablewrap tbody,.tablewrap tr,.tablewrap th,.tablewrap td{display:block;width:auto}
+.tablewrap tr{padding:16px;border-bottom:1.5px solid #d6d3c9}
+.tablewrap tr:last-child{border-bottom:0}
+.tablewrap th,.tablewrap td{border:0;padding:0}
+.tablewrap tbody th{font-size:18px;margin-bottom:10px}
+.tablewrap td{margin-top:10px}
+.tablewrap td::before{content:attr(data-label);display:block;font-size:14px;font-weight:700;color:var(--sub)}}
 </style>
 </head>
 <body>
@@ -67,9 +77,9 @@ footer a{color:var(--sub)}
 <div class="tablewrap"><table>
 <thead><tr><th>頼み先</th><th>1ページの料金の目安</th><th>納期の目安</th><th>向いている人</th></tr></thead>
 <tbody>
-<tr><th>個人の漫画家・イラストレーター（スキル販売サイトなど）</th><td>調べた6件のうち、8,000円が5件、10,000円以上が1件（そのうち広告・PR漫画の1件は、カラー15,000円〜）。外注の解説記事（2024年6月更新）の目安は、モノクロ8,000円〜1万5,000円、カラー1万2,000円〜2万円</td><td>出品者による。6件の中には、実績の平均で約47日の出品、「10日」と書いた出品（販売実績0件）、2〜3か月先まで予約で埋まっている出品がありました</td><td>手描きの品質と、細かい直しを求める人</td></tr>
-<tr><th>漫画の制作会社</th><td>外注の解説記事（2024年6月更新）の目安：モノクロ1万5,000円〜3万円、カラー2万〜4万円。広告用は1本の総額で示す例があります（別の解説記事・2026年4月更新：ランディングページ用で〜10万円とする表と、4万円〜とする表の両方）。正式な額は見積もりで確認</td><td>見積もりの時に確認</td><td>まとまった量を任せたい人</td></tr>
-<tr><th>AI作画の漫画化サービス</th><td>例：まんが化工房は、有料はランサーズで4ページからのプラン（4ページ／8ページ／8ページと主な人物2人の絵の事前確認・料金は<a href="https://www.lancers.jp/menu/detail/1353175" target="_blank" rel="noopener">ランサーズの出品ページ</a>に記載）。1〜3ページの有料はありません。いまは1ページ無料のお試しを先着10名で受付中</td><td>当工房のお試しは1週間ほど（前後します）</td><td>小説の宣伝・試し読み・正式なコミカライズの前の試作に、まず形にしたい人</td></tr>
+<tr><th>個人の漫画家・イラストレーター（スキル販売サイトなど）</th><td data-label="1ページの料金の目安">調べた6件のうち、8,000円が5件、10,000円以上が1件（そのうち広告・PR漫画の1件は、カラー15,000円〜）。外注の解説記事（2024年6月更新）の目安は、モノクロ8,000円〜1万5,000円、カラー1万2,000円〜2万円</td><td data-label="納期の目安">出品者による。6件の中には、実績の平均で約47日の出品、「10日」と書いた出品（販売実績0件）、2〜3か月先まで予約で埋まっている出品がありました</td><td data-label="向いている人">手描きの品質と、細かい直しを求める人</td></tr>
+<tr><th>漫画の制作会社</th><td data-label="1ページの料金の目安">外注の解説記事（2024年6月更新）の目安：モノクロ1万5,000円〜3万円、カラー2万〜4万円。広告用は1本の総額で示す例があります（別の解説記事・2026年4月更新：ランディングページ用で〜10万円とする表と、4万円〜とする表の両方）。正式な額は見積もりで確認</td><td data-label="納期の目安">見積もりの時に確認</td><td data-label="向いている人">まとまった量を任せたい人</td></tr>
+<tr><th>AI作画の漫画化サービス</th><td data-label="1ページの料金の目安">例：まんが化工房は、有料はランサーズで4ページからのプラン（4ページ／8ページ／8ページと主な人物2人の絵の事前確認・料金は<a href="https://www.lancers.jp/menu/detail/1353175" target="_blank" rel="noopener">ランサーズの出品ページ</a>に記載）。1〜3ページの有料はありません。いまは1ページ無料のお試しを先着10名で受付中</td><td data-label="納期の目安">当工房のお試しは1週間ほど（前後します）</td><td data-label="向いている人">小説の宣伝・試し読み・正式なコミカライズの前の試作に、まず形にしたい人</td></tr>
 </tbody></table></div>
 <p class="small">個人の漫画家の数字は、2026年10月24日にスキル販売サイトで「小説 漫画化」「コミカライズ」などで検索し、出品ページの本文で確かめた6件の結果で、相場全体を表すものではありません。料金はいつでも変わるので、頼む前に各出品・各社の最新の案内を確かめてください。AI作画は、手描きより仕上がりの精度が劣る場合があります。</p>
 <p class="small">外の目安は、外注の解説記事2本（2024年6月4日更新・2026年4月16日更新）の本文で確かめた、小説に限らない漫画制作一般の数字です。参考に、漫画アプリの会社が小説のコミカライズの作画者を募集した公開の例（2021年1月掲載・随時募集）では、作画者に払う原稿料がモノクロ1ページ9,000円前後（プロット・ネームから仕上げまで・税別）、カラー1ページ14,000円前後と印税でした。これは会社が作画者に払う額で、個人が依頼するときの料金とは条件が違います。</p>
