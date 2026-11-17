@@ -39,6 +39,9 @@ header.top .w{display:flex;align-items:center;justify-content:space-between;gap:
 .hero p.lead{font-size:18px;margin:0 0 22px}
 .panel{background:#fff;border:3px solid var(--line);box-shadow:6px 6px 0 var(--line)}
 .hero .panel{transform:rotate(1.2deg)}
+.hero .panel{margin:0}
+.hero .panel figcaption{padding:8px 12px}
+.hero h1 .h1-note{display:inline-block;margin-left:.4em;font-size:.45em;vertical-align:middle;white-space:nowrap}
 .cta{display:inline-block;background:var(--ink);color:#fff;text-decoration:none;font-weight:700;font-size:18px;padding:14px 24px;border:3px solid var(--ink);box-shadow:4px 4px 0 var(--accent)}
 .cta:hover{background:#333}
 .cta-note{font-size:14px;color:var(--sub);margin-top:10px}
@@ -95,12 +98,13 @@ footer a{color:var(--sub)}
 
 <div class="hero tone"><div class="w grid">
   <div>
-    <h1><span class="eyebrow">小説の漫画化・コミカライズのご依頼</span>あなたの小説を、<br>漫画の一話に。</h1>
-    <p class="lead">「自分の小説を漫画化したい」に応えます。原作の文章を読んで、コマ割り・作画・縦書きのセリフ入れまで一式で仕上げます。作画はAIが担当します。有料のご依頼は、スキル販売サイトのランサーズで4ページから、ページ数ごとのプラン（4ページ／8ページ／8ページと主な人物2人の絵の事前確認）としてお受けしています（1〜3ページの有料はありません）。お試しは、お届けまで1週間ほどが目安です（前後します）。正式な漫画化の前の試作にも使えます。</p>
-    <a class="cta js-signup" href="#apply">1ページ無料で試す</a>
-    <p class="cta-note">先着10名・原作の冒頭から1ページ分をお作りします</p>
+    <h1><span class="eyebrow">小説の漫画化・コミカライズのご依頼</span>あなたの小説の<br>冒頭を、無料で<br>漫画1ページに。<span class="h1-note">先着10名</span></h1>
+    <p class="lead">作画は生成AIです。お試しは無料で、お届けは1週間ほどが目安です（前後します）。ご自身の小説に限ります。</p>
+    <p class="small">有料のご依頼は下の<a href="#price">料金</a>へ。</p>
+    <a class="cta js-signup" href="#apply" data-goatcounter-click="hero-cta">1ページ無料で試す</a>
+    <p class="cta-note">メールで申し込みます・先着10名・冒頭1ページ分</p>
   </div>
-  <div class="panel"><img src="img/sample-clocktower.jpg" alt="見本：小説「止まった時計塔の修繕屋」第一話の1ページ目。山あいの町の時計塔と、馬車を降りた時計師の青年" width="900" height="1275"></div>
+  <figure class="panel"><img src="img/sample-clocktower.jpg" alt="見本：小説「止まった時計塔の修繕屋」第一話の1ページ目。山あいの町の時計塔と、馬車を降りた時計師の青年" width="900" height="1275"><figcaption class="small">見本（AI作画）：当工房の自作小説の冒頭の1ページ。原作の文章は下の「見本」にあります。</figcaption></figure>
 </div></div>
 
 <main>
@@ -254,7 +258,7 @@ footer a{color:var(--sub)}
 <section id="apply" class="final tone"><div class="w">
   <h2>1ページ、無料で漫画にしてみませんか</h2>
   <p>開発中のため、先着10名さまに無料でお作りしています。</p>
-  <a class="cta js-signup js-mail" href="mailto:info@cocreturn.com">お試しを申し込む</a>
+  <a class="cta js-signup js-mail" href="mailto:info@cocreturn.com" data-goatcounter-click="bottom-cta">お試しを申し込む</a>
   <p class="cta-note js-signup-note">メールで受け付けます。件名と、書いていただく4項目のひな形が入った状態で開きます</p>
 </div></section>
 </main>
